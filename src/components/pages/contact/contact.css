@@ -1,0 +1,58 @@
+.contact__container{
+    width: 40%;
+    gap: 8%;
+    margin-top: 2rem;
+
+}
+
+.contactH1{
+    margin: 0;
+    padding: 0;
+}
+/* CSS STLYE FOR FORM BELOW */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+    left: 30rem;
+   
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.0rem;
+    border-radius: 0.5rem;
+    background: #451c1f;
+    border: 2px solid #d40819;
+    resize:  none;
+    color: white;
+
+}
+
+.errMessage {
+    margin-top: 0;
+    position: relative;
+    bottom: 1rem;
+    color: white;
+    background-color: hotpink;
+    height: 20px;
+    font-size: 12px;
+    gap: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* PHONES */
+@media screen and (max-width: 600px) {
+    .contact__container {
+        width: 90%;
+    }
+}

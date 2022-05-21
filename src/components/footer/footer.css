@@ -1,0 +1,7 @@
+/* TABLETS */
+
+@media screen and (max-width: 1024px) {
+    .footer__socials{
+        margin-bottom: 2.6rem;
+    }
+}

@@ -1,0 +1,29 @@
+.nav-tabs{
+    background-color: #d40819;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+ }
+
+ .nav-tabs .nav-item a {
+     color: white;
+     font-size: large;
+ }
+
+ .nav-tabs .nav-item a:hover {
+    background-color: #38020757;
+}
+
+
+/*  
+display: block;
+    padding: 0.7rem 1.7rem;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    */

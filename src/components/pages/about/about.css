@@ -1,0 +1,104 @@
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+
+}
+
+h1{
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 1rem;
+    color: #d40819;
+
+}
+
+.about__me{
+    position: relative;
+    top: 8rem;
+    left: 10rem;
+    width: 50%;
+    /* height is always going to match the width*/
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+
+}
+
+.about__me-image{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+
+}
+
+.about__me-image:hover{
+    transform: rotate(0);
+}
+
+.about__content{
+    position: relative;
+    top: 5rem;
+    right: 5rem;
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+/* BUTTONS */
+
+.ButtonHeader{
+    display: flex;
+    position: relative;
+    left: 45rem;
+    gap: 1.2rem;
+    
+}
+
+
+/* TABLET */
+@media screen and (max-width: 1024px) {
+    #about{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    h1{
+        
+    
+    }
+    .about__container {
+        
+    }
+    .about__me-image{
+    
+}
+
+    .about__me{
+   
+    }
+
+    .about__content {
+    }
+
+    .ButtonHeader{
+
+        
+        
+    }
+}
+
+/* IPHONE */
+@media screen and (max-width:   600px) {
+    
+    .about__me{
+        width: 65%;
+        margin:  0rem auto 3rem;
+
+    }
+}
+
